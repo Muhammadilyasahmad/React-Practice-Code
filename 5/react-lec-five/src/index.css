@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background: linear-gradient(to right, #0f1f17, #1a2f23, #224134, #2c5545, #1b3b2d);
+        color: white;
+}

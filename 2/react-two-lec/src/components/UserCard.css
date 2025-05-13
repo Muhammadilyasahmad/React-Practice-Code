@@ -1,0 +1,38 @@
+.user-container{
+    background: linear-gradient(to left, #41415f, #636386, #3e3e5c, #4e4e6e, #5f5f7f);
+            padding: 25px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem;
+    border-radius: 18px;
+    /* grid-template-columns: repeat(auto-fill,minmax(200px,1fr));  */
+/* overflow: hidden; */
+}
+#user-img{
+   height: 230px;
+   width: 230px;
+   border-radius:50% ;
+   cursor: pointer;
+}
+.user-container {
+    animation: floatLR 5s ease-in-out infinite;
+    /* optional styles */
+    transition: transform 0.3s ease;
+  }
+  
+  /* @keyframes floatLR {
+    0%   { transform: translateX(0px); }
+    50%  { transform: translateX(25px); }
+    100% { transform: translateX(0); }
+  } */
+  p{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
